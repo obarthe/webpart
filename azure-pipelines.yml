@@ -1,5 +1,5 @@
 parameters:
-  name: 'MyJob'
+  name: ''
 jobs:
   - job: ${{ parameters.name }}
     pool:
